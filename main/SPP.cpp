@@ -22,8 +22,6 @@ void print_example_banner(string title)
 void SPP()
 {
     std::clock_t start;
-    //double duration;
-
     print_example_banner("Implementation:Single Prediciton Protocol");
 
     /*
