@@ -50,16 +50,16 @@ void SPP()
     ChooserPoly test = chooser_evaluator.multiply_plain(Ib, qtb);
 
 
-    ChooserPoly RIb = chooser_evaluator.multiply_plain(Ib, chooser_encoder.encode(T*n)); //*n*Rt
-    ChooserPoly RIbs = chooser_evaluator.sub_plain(RIb, chooser_encoder.encode(T*n)); //n*rt_avg
+    ChooserPoly RIb = chooser_evaluator.multiply_plain(Ib, chooser_encoder.encode(1)); //*n*Rt, only one Ib element is 1
+    ChooserPoly RIbs = chooser_evaluator.sub_plain(RIb, ruavg); //n*rt_avg
     ChooserPoly ntb = chooser_evaluator.multiply(RIbs, qtb); 
 
     ChooserPoly nT = chooser_evaluator.multiply_plain(ntb, chooser_encoder.encode(Tu)); //Tu*
     ChooserPoly dT = chooser_evaluator.multiply_plain(qtb, chooser_encoder.encode(Tu)); //Tu*
 
     //Friends
-    ChooserPoly Rfb = chooser_evaluator.multiply_plain(Ib, chooser_encoder.encode(T*n)); //*n*Rt
-    ChooserPoly Rfbs = chooser_evaluator.sub_plain(Rfb, chooser_encoder.encode(T*n)); //n*rt_avg
+    ChooserPoly Rfb = chooser_evaluator.multiply_plain(Ib, chooser_encoder.encode(1)); //*n*Rt
+    ChooserPoly Rfbs = chooser_evaluator.sub_plain(Rfb, ruavg); //n*rt_avg
     ChooserPoly nfb = chooser_evaluator.multiply(Rfbs, qfb); 
     ChooserPoly nfbw = chooser_evaluator.multiply(nfb, wuf); 
 
@@ -75,8 +75,8 @@ void SPP()
     ChooserPoly X3 = chooser_evaluator.multiply(nF, dT);
     ChooserPoly X32 = chooser_evaluator.multiply_plain(X3, chooser_encoder.encode(alpha));
 
-    ChooserPoly Xs = chooser_evaluator.add(X123, X22);
-    ChooserPoly X = chooser_evaluator.add(Xs, X32);
+    //ChooserPoly Xs = chooser_evaluator.add(X123, X22);
+    ChooserPoly X = chooser_evaluator.add(X22, X32);
 
     ChooserPoly Ys = chooser_evaluator.multiply(dF, dT);
     ChooserPoly Y = chooser_evaluator.multiply_plain(Ys, chooser_encoder.encode(alpha+beta));
@@ -226,10 +226,10 @@ void SPP()
 
     //Stage 3
     //modify later, user average
-    int rua=2;
+    //int rua=2;
 
     //user encryption
-    BigPoly Eruavg=encryptor.encrypt( encoder.encode(rua) );
+    //BigPoly Eruavg=encryptor.encrypt( encoder.encode(rua) );
     cout<<"Time for stage3 user:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
 
@@ -255,7 +255,9 @@ void SPP()
         EdF=tmp2;      
     }
 
-    BigPoly EX=evaluator.add(evaluator.multiply(Eruavg, evaluator.multiply(EdT, evaluator.multiply_plain(EdF, encoder.encode(alpha+beta) ) )), evaluator.add(evaluator.multiply(EnT, evaluator.multiply_plain(EdF, encoder.encode(beta) ) ) , evaluator.multiply(EnF, evaluator.multiply_plain(EdT, encoder.encode(alpha) ) ) ) );
+    //BigPoly EX=evaluator.add(evaluator.multiply(Eruavg, evaluator.multiply(EdT, evaluator.multiply_plain(EdF, encoder.encode(alpha+beta) ) )), evaluator.add(evaluator.multiply(EnT, evaluator.multiply_plain(EdF, encoder.encode(beta) ) ) , evaluator.multiply(EnF, evaluator.multiply_plain(EdT, encoder.encode(alpha) ) ) ) );
+    BigPoly EX=evaluator.add(evaluator.multiply(EnT, evaluator.multiply_plain(EdF, encoder.encode(beta) ) ) , evaluator.multiply(EnF, evaluator.multiply_plain(EdT, encoder.encode(alpha) ) ) );
+    
     BigPoly EY=evaluator.multiply(EdT, evaluator.multiply_plain(EdF, encoder.encode(alpha+beta) ) ); 
     cout<<"Time for stage3 server:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();

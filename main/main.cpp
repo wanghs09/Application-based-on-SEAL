@@ -1,10 +1,12 @@
 #include "SPP.h"
 #include "cryptonets.h"
+#include "TopN.h"
 
 int main()
 {
-	//SPP();
-    Cryptonets();
+	SPP();
+    //Cryptonets();
+    //TopN();
 
     return 0;
 }
