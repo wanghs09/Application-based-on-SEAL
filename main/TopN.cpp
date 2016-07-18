@@ -82,7 +82,7 @@ void TopN()
     // Now perform the computations on real encrypted data.
     //load users, strangers, friends, matrix
     int MTm[Tm][n], MTu[Tu][n], MFu[Fu][n];
-    LoadM(MTm, MTu, MFu);
+    LoadM(MTu, MFu);
 
     int i,j;
     //int Su=0; //select a specific user i=1

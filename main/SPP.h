@@ -16,12 +16,12 @@ using namespace seal;
 #define Fu 70 
 #define n 1682 
 #define T 5 //rating size 0-5
-#define alpha 2 
-#define beta 8 
+#define alpha 8 
+#define beta 2 
 
 void print_example_banner(string title);
 
 void Cryptonets();
 void SPP();
-void LoadM(int MTm[Tm][n], int MTu[Tu][n], int MFu[Fu][n]);
+void LoadM(int MTu[Tu][n], int MFu[Fu][n]);
 
