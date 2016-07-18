@@ -10,7 +10,7 @@
 using namespace std;
 using namespace seal;
 
-
+/*
 #define Tm 1 
 #define Tu 10 
 #define Fu 70 
@@ -18,6 +18,6 @@ using namespace seal;
 #define T 5 //rating size 0-5
 #define alpha 2 
 #define beta 8 
-
+*/
 void TopN();
 

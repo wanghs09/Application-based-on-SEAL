@@ -31,10 +31,21 @@ void TopN()
     //Friends
     ChooserPoly nfbw = chooser_evaluator.multiply(nfb, wuf); 
 
-    ChooserPoly nT = chooser_evaluator.multiply_plain(nfbw, chooser_encoder.encode(Tu)); //Fu*
-    ChooserPoly dT = chooser_evaluator.multiply_plain(qtb, chooser_encoder.encode(Tu)); //Fu*
-    ChooserPoly nF = chooser_evaluator.multiply_plain(nfbw, chooser_encoder.encode(Fu)); //Fu*
-    ChooserPoly dF = chooser_evaluator.multiply_plain(qtb, chooser_encoder.encode(Fu)); //Fu*
+    ChooserPoly nT(1, 1);
+    ChooserPoly dT(1, 1);
+    for(int i=0; i<Tu; i++) 
+    {
+        nT=chooser_evaluator.add(nT, ntb);  
+        dT=chooser_evaluator.add(dT, qtb); 
+    }
+
+    ChooserPoly nF(1, 1);
+    ChooserPoly dF(1, 1);
+    for(int i=0; i<Tu; i++) 
+    {
+        nF=chooser_evaluator.add(nF, nfbw);  
+        dF=chooser_evaluator.add(dF, qfb);  
+    }
 
     //X Y
     ChooserPoly X = chooser_evaluator.add(chooser_evaluator.multiply_plain(chooser_evaluator.multiply(nT, dF), chooser_encoder.encode(beta)), chooser_evaluator.multiply_plain(chooser_evaluator.multiply(nF, dT), chooser_encoder.encode(alpha)));
@@ -81,8 +92,8 @@ void TopN()
     
     // Now perform the computations on real encrypted data.
     //load users, strangers, friends, matrix
-    int MTm[Tm][n], MTu[Tu][n], MFu[Fu][n];
-    LoadM(MTu, MFu);
+    int w[Fu], MTu[Tu][n], MFu[Fu][n];
+    LoadM(MTu, MFu,w);
 
     int i,j;
     //int Su=0; //select a specific user i=1
@@ -94,11 +105,11 @@ void TopN()
     BigPoly *Ent=new BigPoly[Tu*n];
     BigPoly *Eqtb=new BigPoly[Tu*n];
 
-    // encryptor.encrypt( encoder.encode(1), Ent[0] );
-    //cout<<"size:"<<sizeof(Ent[0])<<endl;
-    //cout<<Ent[0].to_string()<<endl;
-
-    //user
+    //sigle HE operation time cost
+    /*
+    encryptor.encrypt( encoder.encode(1), Ent[0] );
+    cout<<"size:"<<sizeof(Ent[0])<<endl;
+    
     start=clock();
     encryptor.encrypt( encoder.encode(1), Ent[0] );
     cout<<"Time for enc:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
@@ -131,27 +142,36 @@ void TopN()
     evaluator.add_plain(Ent[0],  encoder.encode(3), Ent[2] );
     cout<<"Time for add_plain:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
-/**
+    */
+
+    //user
     //user encryption
-    //select the first item
+    int Rtavg[Tu];
+    for(j=0; j<Tu; j++)
+    {
+        Rtavg[j]=0;
+        for(i=0; i<n; i++)
+            Rtavg[j]+=MTu[j][i];
+        Rtavg[j]=Rtavg[j]/n;
+    }
+
     for(i=0; i<Tu; i++)
         for(j=0; j<n; j++)
+        if(MTu[i][j]!=0)
         {
-            encryptor.encrypt( encoder.encode(1), Ent[n*i+j] );
-            encryptor.encrypt( encoder.encode(3), Eqtb[n*i+j] );
+            encryptor.encrypt( encoder.encode(2), Ent[n*i+j] );
+            encryptor.encrypt( encoder.encode(2*(MTu[i][j]-Rtavg[i])), Eqtb[n*i+j] );
         }
-        cout<<"test here";
+        else
+        {
+            encryptor.encrypt( encoder.encode(0), Ent[n*i+j] );
+            encryptor.encrypt( encoder.encode(0), Eqtb[n*i+j] );
+        }
     cout<<"Time for stage1 strangers:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
 
     //stage2, friends
     //user encryption
-    //similarity
-    int w[Fu];
-    //modify later
-    for(j=0; j<Fu; j++) 
-        w[j]=1;
-
     BigPoly Ew[Fu];
     for(i=0; i<Fu; i++) 
         encryptor.encrypt( encoder.encode(w[i] ), Ew[i] );
@@ -166,51 +186,58 @@ void TopN()
     BigPoly *Enf=new BigPoly[Fu*n];
     BigPoly *Eqfb=new BigPoly[Fu*n];
 
-    //BigPoly *pEnf = new BigPoly[210000];
-    //int ax = 0;
-    //delete[] pEnf;
+    int Rfavg[Fu];
+    for(j=0; j<Fu; j++)
+    {
+        Rfavg[j]=0;
+        for(i=0; i<n; i++)
+            Rfavg[j]+=MFu[j][i];
+        Rfavg[j]=Rfavg[j]/n;
+    }
 
 
     for(i=0; i<Fu; i++)
         for(j=0; j<n; j++)
+        if(MTu[i][j]!=0)
         {
-            encryptor.encrypt( encoder.encode(1), Eqfb[n*i+j] );
-            evaluator.multiply_plain(Ew[i],  encoder.encode(3), Enf[n*i+j] );
+            encryptor.encrypt( encoder.encode(2), Enf[n*i+j] );
+            encryptor.encrypt( encoder.encode(2*(MFu[i][j]-Rfavg[i])), Eqfb[n*i+j] );
+        }
+        else
+        {
+            encryptor.encrypt( encoder.encode(0), Enf[n*i+j] );
+            encryptor.encrypt( encoder.encode(0), Eqfb[n*i+j] );
         }
 
     cout<<"Time for stage2 friends:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
 
 
-    
     //Stage 3
-    //modify later, user average
-    //int rua=2;
-
     //user encryption
     //BigPoly EMx[n][n], EMy[n][n];
     BigPoly *EMx=new BigPoly[n*n];
     BigPoly *EMy=new BigPoly[n*n];
 
+    /*
     for(i=0; i<n; i++)
         for(j=0; j<n; j++)
         {
             encryptor.encrypt( encoder.encode(1), EMx[n*i+j] );
             encryptor.encrypt( encoder.encode(1), EMy[n*i+j] );
         }
+    */
     cout<<"Time for stage3 user:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
 
     //RS server
-    //sum all nt
+    //sum all nt for EX and EY
     BigPoly EnT[n], EdT[n], EnF[n], EdF[n], EX[n], EY[n];
 
     for(j=0; j<n; j++)
     {
         encryptor.encrypt( encoder.encode(0), EnT[j] );
         encryptor.encrypt( encoder.encode(0), EdT[j] );
-
-        //BigPoly EnT=Ent[0][j], EdT=Eqtb[0][j];
 
         for(i=0; i<Tu; i++)
         {
@@ -236,6 +263,14 @@ void TopN()
         evaluator.multiply(EdT[j], evaluator.multiply_plain(EdF[j], encoder.encode(alpha+beta) ) , EY[j]); 
     }
 
+    cout << "EX: " << encoder.decode_int64(decryptor.decrypt(EX[0])) << endl;
+    cout << "EX: " << encoder.decode_int64(decryptor.decrypt(EY[0])) << endl;
+
+    cout << "Noise : " << inherent_noise(EX[0], optimal_parms, secret_key).significant_bit_count()
+        << "/" << inherent_noise_max(optimal_parms).significant_bit_count() << " bits" << endl;
+    cout << "Noise : " << inherent_noise(EY[0], optimal_parms, secret_key).significant_bit_count()
+        << "/" << inherent_noise_max(optimal_parms).significant_bit_count() << " bits" << endl;
+    /*
     BigPoly EMxX[n], EMyY[n];
 
     for(i=0; i<n; i++)
@@ -262,28 +297,29 @@ void TopN()
         }
     }
     
-    delete[] Enf;
-    delete[] Eqfb;
-    delete[] EMx;
-    delete[] EMy;
-    delete[] Ent;
-    delete[] Eqtb;
+    
 
 
     cout<<"Time for stage3 server:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
     start=clock();
 
     // Finally print the result and noise
-    
-    cout << "EX: " << encoder.decode_int64(decryptor.decrypt(EX)) << endl;
+    cout << "EX: " << encoder.decode_int64(decryptor.decrypt(EMxX[0])) << endl;
 
-    cout << "Noise : " << inherent_noise(EMxX[0][0], optimal_parms, secret_key).significant_bit_count()
+    cout << "Noise : " << inherent_noise(EMxX[0], optimal_parms, secret_key).significant_bit_count()
         << "/" << inherent_noise_max(optimal_parms).significant_bit_count() << " bits" << endl;
 
-    cout << "EY: " << encoder.decode_int64(decryptor.decrypt(EY)) << endl;
+    cout << "EY: " << encoder.decode_int64(decryptor.decrypt(EMyY[0])) << endl;
 
-    cout << "Noise : " << inherent_noise(EMyY[0][0], optimal_parms, secret_key).significant_bit_count()
+    cout << "Noise : " << inherent_noise(EMyY[0], optimal_parms, secret_key).significant_bit_count()
         << "/" << inherent_noise_max(optimal_parms).significant_bit_count() << " bits" << endl;
+    */
 
-    **/
+    delete[] Enf;
+    delete[] Eqfb;
+    delete[] EMx;
+    delete[] EMy;
+    delete[] Ent;
+    delete[] Eqtb;
+    /****/
 };

@@ -22,6 +22,6 @@ using namespace seal;
 void print_example_banner(string title);
 
 void Cryptonets();
-void SPP();
-void LoadM(int MTu[Tu][n], int MFu[Fu][n]);
+void SPP(int item_num);
+void LoadM(int MTu[Tu][n], int MFu[Fu][n], int sim[Fu]);
 
