@@ -19,5 +19,5 @@ using namespace seal;
 #define alpha 2 
 #define beta 8 
 */
-void TopN();
+void TopN(int user_num);
 

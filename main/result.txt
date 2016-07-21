@@ -1,0 +1,2470 @@
+Selected parameters:
+{ poly_modulus: 1x^4096 + 1
+{ coeff_modulus: 3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000001
+{ plain_modulus: 1000
+{ decomposition_bit_count: 48
+{ noise_standard_deviation: 3.19
+{ noise_max_deviation: 15.95
+Generating keys...
+... key generation complete
+user_id:1, item_id:1255
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0639
+here1
+Time for stage1 Strangers:11.877
+Time for stage2 user:2.95639
+Time for stage2 friends:79.6366
+Time for stage3 user:0
+Time for stage3 server:0.728277
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:1, item_id:154
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1766
+here1
+Time for stage1 Strangers:11.831
+Time for stage2 user:2.9718
+Time for stage2 friends:79.7989
+Time for stage3 user:0
+Time for stage3 server:0.725825
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:1, item_id:583
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1918
+here1
+Time for stage1 Strangers:11.8617
+Time for stage2 user:2.96243
+Time for stage2 friends:79.8495
+Time for stage3 user:0
+Time for stage3 server:0.724834
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:2, item_id:1069
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.2117
+here1
+Time for stage1 Strangers:9.40929
+Time for stage2 user:2.95627
+Time for stage2 friends:80.7939
+Time for stage3 user:0
+Time for stage3 server:0.724562
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:2, item_id:713
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1041
+here1
+Time for stage1 Strangers:9.4159
+Time for stage2 user:2.95809
+Time for stage2 friends:80.819
+Time for stage3 user:0
+Time for stage3 server:0.725641
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:2, item_id:931
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1501
+here1
+Time for stage1 Strangers:9.4262
+Time for stage2 user:2.95914
+Time for stage2 friends:80.8698
+Time for stage3 user:0
+Time for stage3 server:0.726747
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:3, item_id:1160
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1398
+here1
+Time for stage1 Strangers:8.58232
+Time for stage2 user:2.95645
+Time for stage2 friends:84.7754
+Time for stage3 user:0
+Time for stage3 server:0.725876
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:3, item_id:1068
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0729
+here1
+Time for stage1 Strangers:8.57369
+Time for stage2 user:2.95649
+Time for stage2 friends:84.7722
+Time for stage3 user:0
+Time for stage3 server:0.725186
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:3, item_id:395
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0703
+here1
+Time for stage1 Strangers:8.58818
+Time for stage2 user:2.95595
+Time for stage2 friends:84.7133
+Time for stage3 user:0
+Time for stage3 server:0.724773
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:4, item_id:1507
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1263
+here1
+Time for stage1 Strangers:10.4199
+Time for stage2 user:2.95836
+Time for stage2 friends:78.3898
+Time for stage3 user:0
+Time for stage3 server:0.72753
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:4, item_id:1496
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1589
+here1
+Time for stage1 Strangers:10.4483
+Time for stage2 user:2.96132
+Time for stage2 friends:78.3655
+Time for stage3 user:0
+Time for stage3 server:0.724719
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:4, item_id:453
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0989
+here1
+Time for stage1 Strangers:10.4251
+Time for stage2 user:2.96368
+Time for stage2 friends:78.3854
+Time for stage3 user:0
+Time for stage3 server:0.725621
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:5, item_id:738
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1198
+here1
+Time for stage1 Strangers:9.96529
+Time for stage2 user:2.95636
+Time for stage2 friends:72.8773
+Time for stage3 user:0
+Time for stage3 server:0.725631
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:5, item_id:1017
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0762
+here1
+Time for stage1 Strangers:9.98952
+Time for stage2 user:2.95652
+Time for stage2 friends:72.9926
+Time for stage3 user:0
+Time for stage3 server:0.724956
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:5, item_id:1217
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.053
+here1
+Time for stage1 Strangers:9.95905
+Time for stage2 user:2.95511
+Time for stage2 friends:72.8785
+Time for stage3 user:0
+Time for stage3 server:0.725344
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:6, item_id:1154
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0997
+here1
+Time for stage1 Strangers:7.66768
+Time for stage2 user:2.95822
+Time for stage2 friends:85.8863
+Time for stage3 user:1e-06
+Time for stage3 server:0.725941
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:6, item_id:378
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1045
+here1
+Time for stage1 Strangers:7.66492
+Time for stage2 user:2.95774
+Time for stage2 friends:85.8174
+Time for stage3 user:0
+Time for stage3 server:0.724528
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:6, item_id:1098
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0582
+here1
+Time for stage1 Strangers:7.65965
+Time for stage2 user:2.95611
+Time for stage2 friends:85.7151
+Time for stage3 user:0
+Time for stage3 server:0.725778
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:7, item_id:392
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1381
+here1
+Time for stage1 Strangers:10.16
+Time for stage2 user:2.95693
+Time for stage2 friends:80.7422
+Time for stage3 user:1e-06
+Time for stage3 server:0.725894
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:7, item_id:1610
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1944
+here1
+Time for stage1 Strangers:10.1572
+Time for stage2 user:2.96252
+Time for stage2 friends:80.7436
+Time for stage3 user:0
+Time for stage3 server:0.725178
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:7, item_id:1109
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1329
+here1
+Time for stage1 Strangers:10.1438
+Time for stage2 user:2.95638
+Time for stage2 friends:80.656
+Time for stage3 user:1e-06
+Time for stage3 server:0.73369
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:8, item_id:440
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1392
+here1
+Time for stage1 Strangers:12.8932
+Time for stage2 user:2.96744
+Time for stage2 friends:73.7268
+Time for stage3 user:0
+Time for stage3 server:0.725447
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:8, item_id:1029
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1369
+here1
+Time for stage1 Strangers:12.8229
+Time for stage2 user:2.95923
+Time for stage2 friends:73.655
+Time for stage3 user:0
+Time for stage3 server:0.724042
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:8, item_id:1615
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0516
+here1
+Time for stage1 Strangers:12.7975
+Time for stage2 user:2.95586
+Time for stage2 friends:73.6338
+Time for stage3 user:0
+Time for stage3 server:0.728624
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:9, item_id:184
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0883
+here1
+Time for stage1 Strangers:11.896
+Time for stage2 user:2.96078
+Time for stage2 friends:76.9123
+Time for stage3 user:0
+Time for stage3 server:0.725118
+EX: 455040
+EY: 1200
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:9, item_id:684
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.08
+here1
+Time for stage1 Strangers:11.8914
+Time for stage2 user:2.95959
+Time for stage2 friends:76.9267
+Time for stage3 user:0
+Time for stage3 server:0.724503
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:9, item_id:324
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1183
+here1
+Time for stage1 Strangers:11.8961
+Time for stage2 user:2.95491
+Time for stage2 friends:76.939
+Time for stage3 user:0
+Time for stage3 server:0.726176
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:10, item_id:1
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1994
+here1
+Time for stage1 Strangers:8.0513
+Time for stage2 user:2.96248
+Time for stage2 friends:76.3318
+Time for stage3 user:0
+Time for stage3 server:0.725139
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:10, item_id:45
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0455
+here1
+Time for stage1 Strangers:8.10199
+Time for stage2 user:2.96399
+Time for stage2 friends:76.4001
+Time for stage3 user:0
+Time for stage3 server:0.725386
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:10, item_id:379
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.2236
+here1
+Time for stage1 Strangers:8.03024
+Time for stage2 user:2.96564
+Time for stage2 friends:76.4018
+Time for stage3 user:0
+Time for stage3 server:0.728003
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:11, item_id:723
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1577
+here1
+Time for stage1 Strangers:14.0042
+Time for stage2 user:2.9628
+Time for stage2 friends:80.4402
+Time for stage3 user:0
+Time for stage3 server:0.724474
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:11, item_id:1060
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0532
+here1
+Time for stage1 Strangers:14.0387
+Time for stage2 user:2.97004
+Time for stage2 friends:80.2833
+Time for stage3 user:0
+Time for stage3 server:0.726551
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:11, item_id:534
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1166
+here1
+Time for stage1 Strangers:14.0667
+Time for stage2 user:2.96271
+Time for stage2 friends:80.3637
+Time for stage3 user:0
+Time for stage3 server:0.724665
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:12, item_id:1066
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1041
+here1
+Time for stage1 Strangers:12.3899
+Time for stage2 user:2.96057
+Time for stage2 friends:72.4504
+Time for stage3 user:0
+Time for stage3 server:0.726302
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:12, item_id:207
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1064
+here1
+Time for stage1 Strangers:12.4006
+Time for stage2 user:2.95662
+Time for stage2 friends:72.4889
+Time for stage3 user:0
+Time for stage3 server:0.726572
+EX: 41760
+EY: 100
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:12, item_id:1007
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1172
+here1
+Time for stage1 Strangers:12.3706
+Time for stage2 user:2.95634
+Time for stage2 friends:72.4021
+Time for stage3 user:1e-06
+Time for stage3 server:0.724952
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:13, item_id:315
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.2002
+here1
+Time for stage1 Strangers:8.45021
+Time for stage2 user:2.9718
+Time for stage2 friends:84.4484
+Time for stage3 user:1e-06
+Time for stage3 server:0.725096
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:13, item_id:1368
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1292
+here1
+Time for stage1 Strangers:8.45274
+Time for stage2 user:2.95694
+Time for stage2 friends:84.1298
+Time for stage3 user:1e-06
+Time for stage3 server:0.724866
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:13, item_id:153
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1022
+here1
+Time for stage1 Strangers:8.44645
+Time for stage2 user:2.95669
+Time for stage2 friends:84.1637
+Time for stage3 user:0
+Time for stage3 server:0.729109
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:14, item_id:710
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.1509
+here1
+Time for stage1 Strangers:15.0074
+Time for stage2 user:2.95787
+Time for stage2 friends:79.6858
+Time for stage3 user:1e-06
+Time for stage3 server:0.72517
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:14, item_id:953
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0488
+here1
+Time for stage1 Strangers:15.0016
+Time for stage2 user:2.95625
+Time for stage2 friends:79.7686
+Time for stage3 user:0
+Time for stage3 server:0.725253
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:14, item_id:1649
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0987
+here1
+Time for stage1 Strangers:14.9962
+Time for stage2 user:2.95541
+Time for stage2 friends:79.6275
+Time for stage3 user:0
+Time for stage3 server:0.724955
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:15, item_id:923
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0155
+here1
+Time for stage1 Strangers:11.6088
+Time for stage2 user:2.95591
+Time for stage2 friends:78.7498
+Time for stage3 user:0
+Time for stage3 server:0.725307
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:15, item_id:9
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0291
+here1
+Time for stage1 Strangers:11.6208
+Time for stage2 user:2.9551
+Time for stage2 friends:78.9134
+Time for stage3 user:1e-06
+Time for stage3 server:0.724961
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:15, item_id:744
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0136
+here1
+Time for stage1 Strangers:11.6179
+Time for stage2 user:2.95487
+Time for stage2 friends:78.4438
+Time for stage3 user:0
+Time for stage3 server:0.725578
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:16, item_id:219
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0147
+here1
+Time for stage1 Strangers:10.4858
+Time for stage2 user:2.95517
+Time for stage2 friends:81.7888
+Time for stage3 user:0
+Time for stage3 server:0.724533
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:16, item_id:924
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0184
+here1
+Time for stage1 Strangers:10.4765
+Time for stage2 user:2.95642
+Time for stage2 friends:81.9004
+Time for stage3 user:0
+Time for stage3 server:0.724285
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:16, item_id:1122
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0247
+here1
+Time for stage1 Strangers:10.4941
+Time for stage2 user:2.9573
+Time for stage2 friends:81.8573
+Time for stage3 user:1e-06
+Time for stage3 server:0.725325
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:17, item_id:1077
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0213
+here1
+Time for stage1 Strangers:17.4049
+Time for stage2 user:2.95613
+Time for stage2 friends:80.8321
+Time for stage3 user:1e-06
+Time for stage3 server:0.725331
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:17, item_id:1316
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0182
+here1
+Time for stage1 Strangers:17.4472
+Time for stage2 user:2.95456
+Time for stage2 friends:80.5066
+Time for stage3 user:0
+Time for stage3 server:0.725108
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:17, item_id:811
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0256
+here1
+Time for stage1 Strangers:17.3956
+Time for stage2 user:2.95527
+Time for stage2 friends:80.65
+Time for stage3 user:0
+Time for stage3 server:0.725394
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:18, item_id:504
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0303
+here1
+Time for stage1 Strangers:8.21377
+Time for stage2 user:2.95505
+Time for stage2 friends:74.5037
+Time for stage3 user:0
+Time for stage3 server:0.72569
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:18, item_id:1517
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0168
+here1
+Time for stage1 Strangers:8.18252
+Time for stage2 user:2.95576
+Time for stage2 friends:74.3975
+Time for stage3 user:0
+Time for stage3 server:0.724737
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:18, item_id:158
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0342
+here1
+Time for stage1 Strangers:8.17102
+Time for stage2 user:2.95499
+Time for stage2 friends:74.5647
+Time for stage3 user:0
+Time for stage3 server:0.726709
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:19, item_id:438
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0212
+here1
+Time for stage1 Strangers:7.63164
+Time for stage2 user:2.95556
+Time for stage2 friends:78.4984
+Time for stage3 user:1e-06
+Time for stage3 server:0.724995
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:19, item_id:19
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.018
+here1
+Time for stage1 Strangers:7.6412
+Time for stage2 user:2.95471
+Time for stage2 friends:78.6181
+Time for stage3 user:0
+Time for stage3 server:0.724714
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:19, item_id:602
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0234
+here1
+Time for stage1 Strangers:7.63354
+Time for stage2 user:2.95488
+Time for stage2 friends:78.5447
+Time for stage3 user:1e-06
+Time for stage3 server:0.724666
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:20, item_id:522
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0254
+here1
+Time for stage1 Strangers:14.2865
+Time for stage2 user:2.95608
+Time for stage2 friends:75.6164
+Time for stage3 user:0
+Time for stage3 server:0.725066
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:20, item_id:20
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0236
+here1
+Time for stage1 Strangers:14.3074
+Time for stage2 user:2.95464
+Time for stage2 friends:75.6635
+Time for stage3 user:0
+Time for stage3 server:0.724693
+EX: 171120
+EY: 600
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:20, item_id:407
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0244
+here1
+Time for stage1 Strangers:14.3293
+Time for stage2 user:2.95671
+Time for stage2 friends:75.8323
+Time for stage3 user:0
+Time for stage3 server:0.724281
+EX: 315760
+EY: 800
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:21, item_id:901
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0328
+here1
+Time for stage1 Strangers:8.61071
+Time for stage2 user:2.95516
+Time for stage2 friends:82.382
+Time for stage3 user:0
+Time for stage3 server:0.724536
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:21, item_id:743
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0215
+here1
+Time for stage1 Strangers:8.64113
+Time for stage2 user:2.95529
+Time for stage2 friends:82.3811
+Time for stage3 user:1e-06
+Time for stage3 server:0.725119
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:21, item_id:1468
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.017
+here1
+Time for stage1 Strangers:8.59904
+Time for stage2 user:2.95554
+Time for stage2 friends:81.9256
+Time for stage3 user:0
+Time for stage3 server:0.72536
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:22, item_id:1435
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0196
+here1
+Time for stage1 Strangers:11.9242
+Time for stage2 user:2.95473
+Time for stage2 friends:76.1862
+Time for stage3 user:0
+Time for stage3 server:0.725282
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:22, item_id:1570
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:70.9983
+here1
+Time for stage1 Strangers:11.9755
+Time for stage2 user:2.95462
+Time for stage2 friends:76.7174
+Time for stage3 user:0
+Time for stage3 server:0.724445
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:22, item_id:1435
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0197
+here1
+Time for stage1 Strangers:11.9251
+Time for stage2 user:2.95434
+Time for stage2 friends:76.4464
+Time for stage3 user:0
+Time for stage3 server:0.725092
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:23, item_id:520
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0085
+here1
+Time for stage1 Strangers:8.81467
+Time for stage2 user:2.9545
+Time for stage2 friends:76.8247
+Time for stage3 user:0
+Time for stage3 server:0.725072
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:23, item_id:203
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0293
+here1
+Time for stage1 Strangers:8.82538
+Time for stage2 user:2.9535
+Time for stage2 friends:76.783
+Time for stage3 user:0
+Time for stage3 server:0.725484
+EX: 586080
+EY: 1600
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:23, item_id:881
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.02
+here1
+Time for stage1 Strangers:8.80707
+Time for stage2 user:2.95541
+Time for stage2 friends:76.7659
+Time for stage3 user:0
+Time for stage3 server:0.724219
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:24, item_id:673
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0004
+here1
+Time for stage1 Strangers:11.4545
+Time for stage2 user:2.95519
+Time for stage2 friends:78.7223
+Time for stage3 user:0
+Time for stage3 server:0.725154
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:24, item_id:674
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0173
+here1
+Time for stage1 Strangers:11.4339
+Time for stage2 user:2.9558
+Time for stage2 friends:79.1106
+Time for stage3 user:0
+Time for stage3 server:0.72532
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:24, item_id:1595
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0198
+here1
+Time for stage1 Strangers:11.4375
+Time for stage2 user:2.95573
+Time for stage2 friends:79.0927
+Time for stage3 user:0
+Time for stage3 server:0.725608
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:25, item_id:400
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0178
+here1
+Time for stage1 Strangers:11.4607
+Time for stage2 user:2.95481
+Time for stage2 friends:75.085
+Time for stage3 user:0
+Time for stage3 server:0.724541
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:25, item_id:1597
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0201
+here1
+Time for stage1 Strangers:11.473
+Time for stage2 user:2.95586
+Time for stage2 friends:75.0067
+Time for stage3 user:1e-06
+Time for stage3 server:0.725145
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:25, item_id:1604
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0181
+here1
+Time for stage1 Strangers:11.4685
+Time for stage2 user:2.95619
+Time for stage2 friends:74.7693
+Time for stage3 user:0
+Time for stage3 server:0.724738
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:26, item_id:1145
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0162
+here1
+Time for stage1 Strangers:9.36351
+Time for stage2 user:2.9547
+Time for stage2 friends:83.4775
+Time for stage3 user:1e-06
+Time for stage3 server:0.724524
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:26, item_id:1576
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0237
+here1
+Time for stage1 Strangers:9.3817
+Time for stage2 user:2.95468
+Time for stage2 friends:83.3087
+Time for stage3 user:1e-06
+Time for stage3 server:0.724359
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:26, item_id:606
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0233
+here1
+Time for stage1 Strangers:9.40925
+Time for stage2 user:2.95529
+Time for stage2 friends:83.336
+Time for stage3 user:0
+Time for stage3 server:0.725367
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:27, item_id:345
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.023
+here1
+Time for stage1 Strangers:10.4284
+Time for stage2 user:2.95503
+Time for stage2 friends:76.6019
+Time for stage3 user:0
+Time for stage3 server:0.724782
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:27, item_id:972
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0212
+here1
+Time for stage1 Strangers:10.3916
+Time for stage2 user:2.95532
+Time for stage2 friends:76.305
+Time for stage3 user:0
+Time for stage3 server:0.725449
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:27, item_id:1
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0208
+here1
+Time for stage1 Strangers:10.4125
+Time for stage2 user:2.95485
+Time for stage2 friends:76.3052
+Time for stage3 user:0
+Time for stage3 server:0.72526
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:28, item_id:916
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0154
+here1
+Time for stage1 Strangers:10.0957
+Time for stage2 user:2.9552
+Time for stage2 friends:78.6937
+Time for stage3 user:0
+Time for stage3 server:0.725127
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:28, item_id:1476
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0206
+here1
+Time for stage1 Strangers:10.1187
+Time for stage2 user:2.95526
+Time for stage2 friends:78.9286
+Time for stage3 user:0
+Time for stage3 server:0.725237
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:28, item_id:1518
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0128
+here1
+Time for stage1 Strangers:10.0713
+Time for stage2 user:2.95421
+Time for stage2 friends:78.5838
+Time for stage3 user:0
+Time for stage3 server:0.725816
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:29, item_id:1074
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0198
+here1
+Time for stage1 Strangers:8.68788
+Time for stage2 user:2.95545
+Time for stage2 friends:78.6033
+Time for stage3 user:0
+Time for stage3 server:0.724715
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:29, item_id:1674
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0174
+here1
+Time for stage1 Strangers:8.65429
+Time for stage2 user:2.9553
+Time for stage2 friends:78.8799
+Time for stage3 user:0
+Time for stage3 server:0.725903
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:29, item_id:1297
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0209
+here1
+Time for stage1 Strangers:8.65463
+Time for stage2 user:2.95507
+Time for stage2 friends:79.1163
+Time for stage3 user:1e-06
+Time for stage3 server:0.72479
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:30, item_id:1677
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0189
+here1
+Time for stage1 Strangers:7.7543
+Time for stage2 user:2.9555
+Time for stage2 friends:81.4388
+Time for stage3 user:0
+Time for stage3 server:0.725415
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:30, item_id:514
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0132
+here1
+Time for stage1 Strangers:7.75033
+Time for stage2 user:2.95468
+Time for stage2 friends:81.4636
+Time for stage3 user:1e-06
+Time for stage3 server:0.724606
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:30, item_id:1317
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.016
+here1
+Time for stage1 Strangers:7.7577
+Time for stage2 user:2.95463
+Time for stage2 friends:81.4662
+Time for stage3 user:1e-06
+Time for stage3 server:0.725116
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:31, item_id:402
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0165
+here1
+Time for stage1 Strangers:9.99047
+Time for stage2 user:2.95481
+Time for stage2 friends:77.5371
+Time for stage3 user:0
+Time for stage3 server:0.724783
+EX: 286080
+EY: 900
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:31, item_id:1416
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0265
+here1
+Time for stage1 Strangers:10.0102
+Time for stage2 user:2.95638
+Time for stage2 friends:78.029
+Time for stage3 user:0
+Time for stage3 server:0.725614
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:31, item_id:138
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0253
+here1
+Time for stage1 Strangers:9.99502
+Time for stage2 user:2.95634
+Time for stage2 friends:77.7036
+Time for stage3 user:0
+Time for stage3 server:0.724774
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:32, item_id:1630
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0192
+here1
+Time for stage1 Strangers:17.6292
+Time for stage2 user:2.9563
+Time for stage2 friends:82.1024
+Time for stage3 user:0
+Time for stage3 server:0.725124
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:32, item_id:929
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0207
+here1
+Time for stage1 Strangers:17.6445
+Time for stage2 user:2.95555
+Time for stage2 friends:82.0239
+Time for stage3 user:0
+Time for stage3 server:0.724984
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:32, item_id:26
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.012
+here1
+Time for stage1 Strangers:17.5912
+Time for stage2 user:2.95448
+Time for stage2 friends:82.0481
+Time for stage3 user:0
+Time for stage3 server:0.724315
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:33, item_id:1144
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0079
+here1
+Time for stage1 Strangers:7.82541
+Time for stage2 user:2.95513
+Time for stage2 friends:81.6659
+Time for stage3 user:0
+Time for stage3 server:0.729044
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:33, item_id:1450
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0207
+here1
+Time for stage1 Strangers:7.82578
+Time for stage2 user:2.95502
+Time for stage2 friends:82.0412
+Time for stage3 user:0
+Time for stage3 server:0.725345
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:33, item_id:1672
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0131
+here1
+Time for stage1 Strangers:7.83252
+Time for stage2 user:2.96068
+Time for stage2 friends:81.9019
+Time for stage3 user:0
+Time for stage3 server:0.725928
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:34, item_id:343
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.018
+here1
+Time for stage1 Strangers:8.11139
+Time for stage2 user:2.95528
+Time for stage2 friends:84.5416
+Time for stage3 user:0
+Time for stage3 server:0.724957
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:34, item_id:201
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0156
+here1
+Time for stage1 Strangers:8.12393
+Time for stage2 user:2.95474
+Time for stage2 friends:84.3257
+Time for stage3 user:0
+Time for stage3 server:0.72483
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:34, item_id:424
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0335
+here1
+Time for stage1 Strangers:8.08128
+Time for stage2 user:2.9567
+Time for stage2 friends:84.1363
+Time for stage3 user:0
+Time for stage3 server:0.724201
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:35, item_id:256
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0161
+here1
+Time for stage1 Strangers:8.93253
+Time for stage2 user:2.95552
+Time for stage2 friends:82.7918
+Time for stage3 user:1e-06
+Time for stage3 server:0.724551
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:35, item_id:602
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0066
+here1
+Time for stage1 Strangers:8.92088
+Time for stage2 user:2.95452
+Time for stage2 friends:83.052
+Time for stage3 user:0
+Time for stage3 server:0.72449
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:35, item_id:99
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0136
+here1
+Time for stage1 Strangers:8.93503
+Time for stage2 user:2.95483
+Time for stage2 friends:83.0516
+Time for stage3 user:0
+Time for stage3 server:0.724972
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:36, item_id:1621
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0184
+here1
+Time for stage1 Strangers:8.66618
+Time for stage2 user:2.95485
+Time for stage2 friends:85.4723
+Time for stage3 user:0
+Time for stage3 server:0.72447
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:36, item_id:1507
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0233
+here1
+Time for stage1 Strangers:8.64616
+Time for stage2 user:2.95439
+Time for stage2 friends:85.5365
+Time for stage3 user:0
+Time for stage3 server:0.726096
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:36, item_id:1676
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.011
+here1
+Time for stage1 Strangers:8.64913
+Time for stage2 user:2.9558
+Time for stage2 friends:85.4662
+Time for stage3 user:0
+Time for stage3 server:0.725131
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:37, item_id:305
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0461
+here1
+Time for stage1 Strangers:8.49558
+Time for stage2 user:2.95487
+Time for stage2 friends:73.1244
+Time for stage3 user:0
+Time for stage3 server:0.726744
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:37, item_id:1612
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0449
+here1
+Time for stage1 Strangers:8.47611
+Time for stage2 user:2.95672
+Time for stage2 friends:73.0947
+Time for stage3 user:0
+Time for stage3 server:0.724252
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:37, item_id:966
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0405
+here1
+Time for stage1 Strangers:8.45032
+Time for stage2 user:2.95546
+Time for stage2 friends:73.3299
+Time for stage3 user:0
+Time for stage3 server:0.728494
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:38, item_id:66
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0344
+here1
+Time for stage1 Strangers:11.6573
+Time for stage2 user:2.95533
+Time for stage2 friends:73.774
+Time for stage3 user:0
+Time for stage3 server:0.725398
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:38, item_id:847
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0315
+here1
+Time for stage1 Strangers:11.6114
+Time for stage2 user:2.96197
+Time for stage2 friends:73.7322
+Time for stage3 user:0
+Time for stage3 server:0.724258
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:38, item_id:520
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0288
+here1
+Time for stage1 Strangers:11.6342
+Time for stage2 user:2.95749
+Time for stage2 friends:73.7435
+Time for stage3 user:0
+Time for stage3 server:0.72499
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:39, item_id:1344
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0223
+here1
+Time for stage1 Strangers:11.9275
+Time for stage2 user:2.95631
+Time for stage2 friends:86.2866
+Time for stage3 user:1e-06
+Time for stage3 server:0.724821
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:39, item_id:1681
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0291
+here1
+Time for stage1 Strangers:11.9196
+Time for stage2 user:2.95631
+Time for stage2 friends:86.3547
+Time for stage3 user:0
+Time for stage3 server:0.725221
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:39, item_id:513
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0272
+here1
+Time for stage1 Strangers:11.9209
+Time for stage2 user:2.95632
+Time for stage2 friends:86.3765
+Time for stage3 user:1e-06
+Time for stage3 server:0.724655
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:40, item_id:959
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0265
+here1
+Time for stage1 Strangers:7.4188
+Time for stage2 user:2.95728
+Time for stage2 friends:83.0803
+Time for stage3 user:1e-06
+Time for stage3 server:0.726393
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:40, item_id:1436
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0613
+here1
+Time for stage1 Strangers:7.41103
+Time for stage2 user:2.95572
+Time for stage2 friends:82.8937
+Time for stage3 user:0
+Time for stage3 server:0.728652
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:40, item_id:1027
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0279
+here1
+Time for stage1 Strangers:7.40829
+Time for stage2 user:2.95494
+Time for stage2 friends:82.6693
+Time for stage3 user:0
+Time for stage3 server:0.724719
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:41, item_id:354
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0253
+here1
+Time for stage1 Strangers:9.6056
+Time for stage2 user:2.95506
+Time for stage2 friends:74.2117
+Time for stage3 user:0
+Time for stage3 server:0.72486
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:41, item_id:1599
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0262
+here1
+Time for stage1 Strangers:9.59403
+Time for stage2 user:2.9551
+Time for stage2 friends:74.2461
+Time for stage3 user:0
+Time for stage3 server:0.724365
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:41, item_id:521
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0174
+here1
+Time for stage1 Strangers:9.6158
+Time for stage2 user:2.95619
+Time for stage2 friends:74.2112
+Time for stage3 user:0
+Time for stage3 server:0.724853
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:42, item_id:493
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0183
+here1
+Time for stage1 Strangers:8.30724
+Time for stage2 user:2.95576
+Time for stage2 friends:74.0113
+Time for stage3 user:0
+Time for stage3 server:0.725481
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:42, item_id:1547
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0141
+here1
+Time for stage1 Strangers:8.33501
+Time for stage2 user:2.95502
+Time for stage2 friends:74.2084
+Time for stage3 user:0
+Time for stage3 server:0.724483
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:42, item_id:1451
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0289
+here1
+Time for stage1 Strangers:8.35612
+Time for stage2 user:2.95517
+Time for stage2 friends:74.0472
+Time for stage3 user:0
+Time for stage3 server:0.725746
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:43, item_id:279
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0181
+here1
+Time for stage1 Strangers:11.9103
+Time for stage2 user:2.95505
+Time for stage2 friends:76.8965
+Time for stage3 user:0
+Time for stage3 server:0.724547
+EX: 0
+EY: 0
+Noise : 153/177 bits
+Noise : 77/177 bits
+user_id:43, item_id:769
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.012
+here1
+Time for stage1 Strangers:11.9592
+Time for stage2 user:2.95509
+Time for stage2 friends:77.0728
+Time for stage3 user:0
+Time for stage3 server:0.724763
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:43, item_id:979
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0189
+here1
+Time for stage1 Strangers:11.9293
+Time for stage2 user:2.95443
+Time for stage2 friends:77.0597
+Time for stage3 user:0
+Time for stage3 server:0.724859
+EX: 0
+EY: 0
+Noise : 154/177 bits
+Noise : 77/177 bits
+user_id:44, item_id:29
+
+***************************************************************
+********** Implementation:Single Prediciton Protocol **********
+***************************************************************
+
+Generating keys...
+... key generation complete
+Time for stage1 user:71.0143
+h

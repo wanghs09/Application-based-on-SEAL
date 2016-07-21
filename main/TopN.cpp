@@ -1,10 +1,16 @@
+/*
+Date: 2016-07-15
+Husen.wang@uni.lu 
+University of Luxembourg & SnT
+*/
 #include "TopN.h"
 #include "SPP.h"
 
 
+
 //TDSC implementation
 //TopN Protocol
-void TopN()
+void TopN(int user_num)
 {
     std::clock_t start;
     print_example_banner("Implementation:TopN Protocol");
@@ -93,7 +99,7 @@ void TopN()
     // Now perform the computations on real encrypted data.
     //load users, strangers, friends, matrix
     int w[Fu], MTu[Tu][n], MFu[Fu][n];
-    LoadM(MTu, MFu,w);
+    LoadM(MTu, MFu,w, user_num);
 
     int i,j;
     //int Su=0; //select a specific user i=1
@@ -104,45 +110,6 @@ void TopN()
 
     BigPoly *Ent=new BigPoly[Tu*n];
     BigPoly *Eqtb=new BigPoly[Tu*n];
-
-    //sigle HE operation time cost
-    /*
-    encryptor.encrypt( encoder.encode(1), Ent[0] );
-    cout<<"size:"<<sizeof(Ent[0])<<endl;
-    
-    start=clock();
-    encryptor.encrypt( encoder.encode(1), Ent[0] );
-    cout<<"Time for enc:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    start=clock();
-
-    start=clock();
-    encryptor.encrypt( encoder.encode(20), Ent[1] );
-    cout<<"Time for enc:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    start=clock();
-
-    start=clock();
-    evaluator.multiply(Ent[0],  Ent[1], Ent[2] );
-    evaluator.multiply(Ent[0],  Ent[2], Ent[4] );
-    cout<<"Time for multply:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    cout << "res: " << encoder.decode_int64(decryptor.decrypt(Ent[2])) << endl;
-    start=clock();
-
-    start=clock();
-    evaluator.multiply_plain(Ent[0],  encoder.encode(3), Ent[2] );
-    cout<<"Time for multply_plain:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    cout << "res: " << encoder.decode_int64(decryptor.decrypt(Ent[2])) << endl;
-    start=clock();
-    
-    start=clock();
-    evaluator.add(Ent[0],  Ent[1], Ent[2] );
-    cout<<"Time for add:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    start=clock();
-
-    start=clock();
-    evaluator.add_plain(Ent[0],  encoder.encode(3), Ent[2] );
-    cout<<"Time for add_plain:"<<(clock()-start)/(double)CLOCKS_PER_SEC <<endl;
-    start=clock();
-    */
 
     //user
     //user encryption

@@ -18,11 +18,6 @@ index_vec[target_item_id]=1
 # pesudo rating matrix
 #strangers = np.random.randint(low=0, high=5, size=(stranger_num, item_num))
 #e.g. item_num = 10, stranger_num = 5
-strangers = [[2, 3, 3, 0, 0, 2, 4, 1, 1, 1],
-             [0, 2, 1, 0, 4, 3, 3, 2, 4, 2],
-             [1, 2, 1, 1, 0, 3, 4, 1, 0, 0],
-             [2, 2, 1, 1, 4, 0, 3, 0, 1, 2],
-             [3, 1, 2, 0, 4, 2, 1, 2, 4, 4]]
 '''
 
 strangers = np.random.randint(5,size=(stranger_num,item_num))
@@ -79,8 +74,7 @@ mskf = friends > np.zeros((friend_num,item_num),np.int32)
 mskf = mskf.astype(np.int32)
 
 #similarity, w, use corr to get real pearson coe
-w = np.ones((friend_num,friend_num),np.int32)*8
-
+w = np.ones( (friend_num,),np.int32)*8
 np.savetxt('sim.txt', w,  fmt='%d')
 
 #rf = qf,b(Rf.Ib-mean_rf) and stage3 for users
@@ -99,7 +93,7 @@ idx = 0
 rf = np.zeros(friend_num,np.int32) #np.int32 will limit all ints to 8-bits, so all above 256 will be 0
 for one in friends:
     #rf[idx] = qf[idx]*(np.dot(one,index_vec)-mean_f[idx])*w[1,idx]
-    rf[idx] = qf[idx]*(np.dot(one,index_vec)-mean_f[idx])*w[1,idx]
+    rf[idx] = qf[idx]*(np.dot(one,index_vec)-mean_f[idx])*w[idx]
     #print "idx:",idx, "npdot:", np.dot(one,index_vec), "mean:", mean_f[idx], "qf", qf[idx], "w:", w[1,idx], "rf:", rf[idx]
     idx += 1
 
