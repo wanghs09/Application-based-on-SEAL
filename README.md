@@ -1,5 +1,5 @@
 # Application-based-on-SEAL
-Application based on Microsoft HE library SEAL
+Privacy preserving Recommender System Training based on Microsoft float point Homomorphic Encryption library SEAL
 
 main.cpp 
 //includes the main function.
